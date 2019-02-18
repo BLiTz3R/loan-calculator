@@ -1,6 +1,8 @@
 # loan-calculator
 A simple JS loan calculator, project in progress...
 
+Googled the formulas for the calculations, used setTimeout() for a better user experience.
+
 v0.1: just GUI.
 
 v0.2: Calculations, results + error message, that disappears after 3 secs, on wrong input.
