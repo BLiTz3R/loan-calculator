@@ -1,4 +1,4 @@
-# loan-calculator v1.0
+# Loan Calculator v1.0
 A simple JS loan calculator.
 
 Googled the formulas for the calculations, used setTimeout() for a better user experience. 
