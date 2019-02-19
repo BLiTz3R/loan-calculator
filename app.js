@@ -30,7 +30,7 @@ function calculateResults() {
     const x = Math.pow(1 + calculatedInterest, calculatedPayments);
     const monthly = (principal * x * calculatedInterest) / (x - 1);
 
-    if (principal > 0 && calculatedInterest > 0 && calculatedPayments > 0 && monthly > 0 && isFinite(monthly)) {
+    if (amount.value > 0 && interest.value > 0 && years.value > 0 && monthly > 0 && isFinite(monthly)) {
         monthlyPayment.value = monthly.toFixed(2);
         totalPayment.value = (monthly * calculatedPayments).toFixed(2);
         totalInterest.value = ((monthly * calculatedPayments) - principal).toFixed(2);
