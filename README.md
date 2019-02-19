@@ -9,4 +9,4 @@ v0.2: Calculations, results + error message, that disappears after 3 secs, on wr
 
 v0.3: Better user experience, added "loading" icon on "calculate", results are hidden until calculated.
 
-v0.4: Bugs fixed. Can now input any positive value
+v0.4: Bugs fixed. Can now input any positive value.
